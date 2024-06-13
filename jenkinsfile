@@ -1,19 +1,19 @@
-pipeline {
+opipeline {
  agent any
  stages {
-    stage("build") {
+    stage("saludo") {
          steps {
-             bat 'echo building'
+             bat 'echo hola'
          }
     }
-     stage("test") {
+     stage("conversacion") {
          steps {
-             bat 'echo Testing'
+             bat 'echo como_estas'
          }
      }
-     stage("deploy") {
+     stage("adios") {
          steps {
-             bat 'echo deploying'
+             bat 'echo adios'
          }
      }
  }
