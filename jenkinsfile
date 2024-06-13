@@ -8,7 +8,7 @@ opipeline {
     }
      stage("conversacion") {
          steps {
-             bat 'echo como_estas'
+             bat 'echo comoestas'
          }
      }
      stage("adios") {
